@@ -3,6 +3,10 @@
 const names = ['Papa', 'UncleBrian', 'Elliott', 'Emmett']
 const scores = [
     {
+        "date": "Tuesday January 7, 2024",
+        "score": [531, 418, 528, 523]
+    },
+    {
         "date": "Thrusday December 26, 2024",
         "score": [714, 500, 296, 490]
     },
