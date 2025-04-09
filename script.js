@@ -17,27 +17,31 @@ let me = 0
 // list goes papa, uncle b, elliott, me
 const scores = [
     {
-        "date": "Tuesday April 1, 2024",
+        "date": "Tuesday April 8, 2025",
+        "score": [485, 370, 806, 339]
+    },
+    {
+        "date": "Tuesday April 1, 2025",
         "score": [800, 350, 480, 366]
     },
     {
-        "date": "Tuesday March 25, 2024",
+        "date": "Tuesday March 25, 2025",
         "score": [494, 348, 743, 415]
     },
     {
-        "date": "Tuesday March 18, 2024",
+        "date": "Tuesday March 18, 2025",
         "score": [359, 643, 438, 560]
     },
     {
-        "date": "Tuesday March 11, 2024",
+        "date": "Tuesday March 11, 2025",
         "score": [381, 529, 624, 466]
     },
     {
-        "date": "Tuesday March 4, 2024",
+        "date": "Tuesday March 4, 2025",
         "score": [290, 455, 450, 805]
     },
     {
-        "date": "Tuesday February 25, 2024",
+        "date": "Tuesday February 25, 2025",
         "score": [289, 355, 851, 505]
     },
     {
