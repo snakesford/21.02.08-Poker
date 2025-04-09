@@ -45,27 +45,27 @@ const scores = [
         "score": [289, 355, 851, 505]
     },
     {
-        "date": "Tuesday February 18, 2024",
+        "date": "Tuesday February 18, 2025",
         "score": [656, 500, 516, 328]
     },
     {
-        "date": "Tuesday February 11, 2024",
+        "date": "Tuesday February 11, 2025",
         "score": [799, 612, 177, 412]
     },
     {
-        "date": "Tuesday February 4, 2024",
+        "date": "Tuesday February 4, 2025",
         "score": [470, 415, 728, 387]
     },
     {
-        "date": "Tuesday January 28, 2024",
+        "date": "Tuesday January 28, 2025",
         "score": [789, 549, 345, 317]
     },
     {
-        "date": "Tuesday January 21, 2024",
+        "date": "Tuesday January 21, 2025",
         "score": [761, 439, 288, 512]
     },
     {
-        "date": "Tuesday January 7, 2024",
+        "date": "Tuesday January 7, 2025",
         "score": [531, 418, 528, 523]
     },
     {
