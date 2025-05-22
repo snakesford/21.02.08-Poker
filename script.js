@@ -21,7 +21,7 @@ const scores = [
         "score": [455, 500, 771, 274]
     },
     {
-        "date": "thursday May 15, 2025",
+        "date": "Thursday May 15, 2025",
         "score": [552, 500, 352, 596]
     },
     {
