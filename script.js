@@ -17,6 +17,10 @@ let me = 0
 // list goes papa, uncle b, elliott, me
 const scores = [
     {
+        "date": "Tuesday June 4, 2025",
+        "score": [404, 500, 689, 407]
+    },
+    {
         "date": "Tuesday May 27, 2025",
         "score": [584, 340, 283, 793]
     },
