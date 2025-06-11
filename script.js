@@ -21,7 +21,7 @@ const scores = [
         "score": [532, 438, 394, 636]
     },
     {
-        "date": "Tuesday June 4, 2025",
+        "date": "Wednesday June 4, 2025",
         "score": [404, 500, 689, 407]
     },
     {
