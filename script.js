@@ -1,3 +1,17 @@
+// You need to buy some chicken for dinner tonight. You found an ad showing that the store across town has it on sale for $2.99 a pound, which is cheaper than your usual neighborhood store, which sells it for $3.19 a pound. Is it worth the extra drive?
+
+// First, determine what information you need to answer this question	•	How much chicken will you be buying? 7 pounds
+// 	•	How much far are the two stores? My neighborhood store is 2.3 miles away, and takes about 9 minutes. The store across town is 8.7 miles away, and takes about 21 minutes.
+// 	•	How kind of mileage does your car get? It averages about 20 miles per gallon in the city.
+// 	•	How many gallons does your car hold? About 17 gallons
+// 	•	How much is gas? About $3.70/gallon right now.
+
+// Going to the close store is cheaper
+
+// How much does the cheaper option saves you
+
+// Give your answer to the nearest cent.
+
 const one = document.getElementById("1")
 const two = document.getElementById("2")
 const three = document.getElementById("3")
@@ -17,7 +31,7 @@ let me = 0
 // list goes papa, uncle b, elliott, me
 const scores = [
     {
-        "date": "Tuesday July 8, 2025",
+        "date": "Tuesday July 15, 2025",
         "score": [364, 343, 362, 931]
     },
     {
