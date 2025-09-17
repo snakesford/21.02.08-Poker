@@ -344,6 +344,11 @@ title3.textContent = sortedList[2][0]
 four.textContent = sortedList[3][1]
 title4.textContent = sortedList[3][0]
 
+avg1.textContent = (sortedList[0][1] / scores.length).toFixed(2);
+avg2.textContent = (sortedList[1][1] / scores.length).toFixed(2);
+avg3.textContent = (sortedList[2][1] / scores.length).toFixed(2);
+avg4.textContent = (sortedList[3][1] / scores.length).toFixed(2);
+
 scores.forEach((item) => {
     // Re-map scores based on sorted users
     const reorderedScores = sortedList.map(([key]) => {
@@ -353,20 +358,3 @@ scores.forEach((item) => {
     addTableRow(item.date, reorderedScores);
 });
 
-avg1.textContent = (sortedList[0][1] / scores.length).toFixed(2);
-avg2.textContent = (sortedList[1][1] / scores.length).toFixed(2);
-avg3.textContent = (sortedList[2][1] / scores.length).toFixed(2);
-avg4.textContent = (sortedList[3][1] / scores.length).toFixed(2);
-
-// 61 games
-// 122000
-// 31820 elliott score
-// 31820 Papa score
-// 31820 Emmett score
-// 31820 Uncle B score
-console.log(scores.length);
-console.log(scores.length * 2000);
-console.log(sortedList[0][1]);
-console.log(sortedList[1][1]);
-console.log(sortedList[2][1]);
-console.log(sortedList[3][1]);
