@@ -22,6 +22,11 @@ const title2 = document.getElementById("title2")
 const title3 = document.getElementById("title3")
 const title4 = document.getElementById("title4")
 
+const avg1 = document.getElementById("avg1")
+const avg2 = document.getElementById("avg2")
+const avg3 = document.getElementById("avg3")
+const avg4 = document.getElementById("avg4")
+
 const totals = [0, 0, 0, 0]
 
 let p = 0
@@ -29,6 +34,7 @@ let b = 0
 let e = 0
 let me = 0
 // list goes papa, uncle b, elliott, me
+
 const scores = [
     {
         "date": "Tuesday September 16, 2025",
@@ -346,3 +352,21 @@ scores.forEach((item) => {
 
     addTableRow(item.date, reorderedScores);
 });
+
+avg1.textContent = (sortedList[0][1] / scores.length).toFixed(2);
+avg2.textContent = (sortedList[1][1] / scores.length).toFixed(2);
+avg3.textContent = (sortedList[2][1] / scores.length).toFixed(2);
+avg4.textContent = (sortedList[3][1] / scores.length).toFixed(2);
+
+// 61 games
+// 122000
+// 31820 elliott score
+// 31820 Papa score
+// 31820 Emmett score
+// 31820 Uncle B score
+console.log(scores.length);
+console.log(scores.length * 2000);
+console.log(sortedList[0][1]);
+console.log(sortedList[1][1]);
+console.log(sortedList[2][1]);
+console.log(sortedList[3][1]);
