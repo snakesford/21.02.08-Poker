@@ -37,6 +37,10 @@ let me = 0
 
 const scores = [
     {
+        "date": "Tuesday October 14, 2025",
+        "score": [937, 386, 300, 377]
+    },
+    {
         "date": "Tuesday October 7, 2025",
         "score": [447, 412, 945, 196]
     },
